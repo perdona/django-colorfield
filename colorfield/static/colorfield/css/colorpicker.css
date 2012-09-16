@@ -1,11 +1,10 @@
 .color-picker-preview {
-    border:1px solid #ccc;
-    height:23px;
-    left:122px;
-    position:absolute;
-    top:0;
-    width:23px;
-    -moz-border-radius:4px;
+	border: 1px solid #CCCCCC;
+    float: left;
+    height: 23px;
+    margin-right: 6px;
+    position: relative;
+    width: 23px;
 }
 .color-picker-preview div {
     height:19px;
