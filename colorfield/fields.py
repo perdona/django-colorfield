@@ -6,6 +6,11 @@ from django.utils.text import capfirst
 
 from colorfield.widgets import ColorPickerWidget
 
+try:
+    from south.modelsinspector import add_introspection_rules
+    add_introspection_rules([], ['^colorfield\.fields\.ColorField'])
+except ImportError:
+    pass
 
 class ColorField(models.CharField):
     """
