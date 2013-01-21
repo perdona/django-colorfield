@@ -2,12 +2,20 @@
 django-colorfield
 =================
 
-Simple colorfield for django (optimized for grappelli)
+Simple colorfield for django (optimized for carlosroberto)
 
 Installation
 ============
 
-Add `colorfield` to your `INSTALLED_APPS`.
+Instaling django-colorfield::
+
+    pip install -e git://github.com/willemallan/django-colorfield.git#egg=colorfield
+
+Add `colorfield` to your `INSTALLED_APPS`, example::
+
+    INSTALLED_APPS = (
+        'colorfield',
+    )
 
 Then in your models, you can use it like this::
 
