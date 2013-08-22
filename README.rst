@@ -9,7 +9,7 @@ Installation
 
 Instaling django-colorfield::
 
-    pip install -e git://github.com/willemallan/django-colorfield.git#egg=colorfield
+    pip install -e git://github.com/renecarvalho/django-colorfield.git#egg=colorfield
 
 Add `colorfield` to your `INSTALLED_APPS`, example::
 
